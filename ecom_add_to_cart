@@ -19,7 +19,6 @@ window.dataLayer.push({
             quantity: 2,
             for_who: "for_someone_else",
             buyer_type: "GIFT_CORPORATE",
-            delivery_type: "email"
         }, {
             item_id: "Z2",
             item_name: "SEK500",
@@ -30,7 +29,6 @@ window.dataLayer.push({
             quantity: 1,
             for_who: "for_me",
             buyer_type: "GIFT_PERSONAL",
-            delivery_type: "sms"
         }]
     }
 }); < /script>
