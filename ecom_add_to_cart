@@ -7,7 +7,6 @@ window.dataLayer.push({
     event: "add_to_cart",
     ecommerce: {
         value: 1000,
-        tax: 0,
         currency: "SEK",
         items: [{
             item_id: "Z1",
