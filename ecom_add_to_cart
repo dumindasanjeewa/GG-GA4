@@ -1,0 +1,36 @@
+< script >
+    window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+    ecommerce: null
+});
+window.dataLayer.push({
+    event: "add_to_cart",
+    ecommerce: {
+        value: 1000,
+        tax: 0,
+        currency: "SEK",
+        items: [{
+            item_id: "Z1",
+            item_name: "SEK250",
+            affiliation: "Zalando",
+            discount: 0,
+            item_brand: "Zalando",
+            price: 250,
+            quantity: 2,
+            for_who: "for_someone_else",
+            buyer_type: "GIFT_CORPORATE",
+            delivery_type: "email"
+        }, {
+            item_id: "Z2",
+            item_name: "SEK500",
+            affiliation: "Zalando",
+            discount: 0,
+            item_brand: "Zalando",
+            price: 500,
+            quantity: 1,
+            for_who: "for_me",
+            buyer_type: "GIFT_PERSONAL",
+            delivery_type: "sms"
+        }]
+    }
+}); < /script>
